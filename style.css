@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display SC', serif;
+    text-align: center;
+    margin: 100px;
+    background-color: #152431;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.85);
+    color: black;
+    box-shadow: 5px 5px 3px black;
+    border-radius: 15px;
+    width: 700px;
+    font-size: 20px;
+}
+
+h1 {
+    color: rgb(83, 128, 0);
+}
+.titulo {
+    font-size: 45px;
+    margin: 10px;
+}
+
+.informaçoes {
+    flex-direction: column;
+
+}
+
+.btn {
+    margin: 20px;
+    padding: 15px;
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.btn:hover  {
+    transition: 1.5s;
+    color: white;
+    background-color: rgb(12, 147, 12);
+    cursor: pointer;
+}
+
+
+.menos-dezoito-e-meio:hover {
+    color: rgb(224, 77, 77);
+    transition: 1.5s;
+
+}
+
+.entre-dezoito-e-meio:hover {
+    color: rgb(128, 190, 33);
+    transition: 1.5s;
+}
+
+.entre-vinteCinco-vinteNove:hover {
+    color: rgb(255, 189, 68);
+    transition: 1.5s;
+}
+
+.entre-trinta-trintaQuatro:hover {
+    color: orange;
+    transition: 1.5s;
+}
+
+.Entre-trintaCinco-trintaNove:hover {
+    color: orangered;
+    transition: 1.5s;
+}
+
+.MaisQuarenta:hover {
+    color: red;
+    transition: 1.5s;
+}
+
+.abaixo-peso:hover {
+    color: rgb(224, 77, 77);
+    transition: 1.5s;
+
+}
+
+.peso-normal:hover {
+    color: rgb(128, 190, 33);
+    transition: 1.5s;
+}
+
+.Sobrepeso:hover {
+    color: rgb(228, 155, 19);
+    transition: 1.5s;
+}
+
+.Obesidade-grau-um:hover {
+    color: rgb(227, 83, 83);
+    transition: 1.5s;
+}
+
+.Obesidade-grau-dois:hover {
+    color: rgb(224, 34, 34);
+    transition: 1.5s;
+}
+
+.Obesidade-grau-tres:hover {
+    color: red;
+    transition: 1.5s;
+}
+
+.peso {
+    height: 25px;
+    
+}
+
+.altura {
+    height: 25px;
+}
+
+.paragrafo-resultado{
+    background-color: rgb(109, 255, 182);
+    padding: 10px 20px;
+}
+
+.bad {
+    background-color: rgb(255, 150, 150);
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+        <title>Calculadora IMC.</title>
+</head>
+<body>
+    <section>
+        <div class="informaçoes">
+        <h1 class="titulo">Tabela IMC</h1>
+        <h2 class="IMC">IMC</h2>
+        <p class="menos-dezoito-e-meio">Menos do que 18,5</p>
+        <p class="entre-dezoito-e-meio">Entre 18,5</p>
+        <p class="entre-vinteCinco-vinteNove">Entre 25 e 29,9</p>
+        <p class="entre-trinta-trintaQuatro">Entre 30 e 34,9</p>
+        <p class="Entre-trintaCinco-trintaNove">Entre 35 e 39,9</p>
+        <p class="MaisQuarenta">Mais do que 40</p>
+        <h2 class="resultado">Resultado</h2>
+        <p class="abaixo-peso">Abaixo do peso.</p>
+        <p class="peso-normal">Peso normal.</p>
+        <p class="Sobrepeso">Sobrepeso</p>
+        <p class="Obesidade-grau-um">Obesidade grau 1</p>
+        <p class="Obesidade-grau-dois">Obesidade grau 2</p>
+        <p class="Obesidade-grau-tres">Obesidade grau 3</p>
+        </div>
+    <form action="" id= "formulario" method="POST">
+        <label for="peso">
+            <p>Peso:</p>
+        </label>
+        <input type="text" id="peso" name="peso" class="peso">
+        <label for="altura">
+            <p>Altura:</p>
+        </label>
+        <input type="text" id="altura" name="altura" class="altura">
+        <br>
+        
+        <button class="btn" id="btn" type="submit">Calcular</button>
+        <br>
+        <div id="resposta"></div>
+    </form>
+</section>
+</body>
+    <script src="script.js"></script>
+</html>
